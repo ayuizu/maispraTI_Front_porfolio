@@ -43,6 +43,7 @@ const loop = setInterval(() => {
         //Se isso acontecer, para a animação
         clouds.style.left = `${cloudsPosition}px`;
         //Posição da núvem quando parar a animação -- se não volta pro inicio ou continua rodando
+
     }
 
 },10);

@@ -1,7 +1,9 @@
 html {
   /*Suavização do scroll*/
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
+
+/** Paleta de cores: Desert Blush @Canvas */
 
 /*CORPO DA APLICAÇÃO*/
 body {
@@ -14,14 +16,14 @@ body {
   /*1 rem = 16 px, tela grande = font-size 16 px, tela media = font-size: 15 px, tela pequena font-size: 14px*/
   width: 95%;
   margin: auto;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-section {
+section{
   /*espaçamento*/
   /* padding-left: 256px;
-    padding-right: 256px;
-    padding-bottom: 64px;
-    padding-top: 64px; */
+  padding-right: 256px;
+  padding-bottom: 64px;
+  padding-top: 64px; */
   /*outra forma mais simples de definir padding*/
   padding: 64px 256px;
   /* colocar quatro elementos: top right bottom left*/
@@ -33,26 +35,26 @@ table {
   /*largura*/
   width: 100%;
 }
-/*cabeçalho*/
+  /*cabeçalho*/
 td {
   /*background*/
-  background-color: #a9d9d0;
+  background-color: #EAB996;
 }
-/*td = célula com dado; td = célula cabeçalho*/
+  /*td = célula com dado; td = célula cabeçalho*/
 td,
 th {
   /*borda formato short-hand*/
   /* border-width: 3px;
-    border-style: solid;
-    border-color: #000; */
+  border-style: solid;
+  border-color: #000; */
   /*ou resumindo*/
   border: #000 solid 1px;
-  border-radius: 1px;
+  border-radius: 4px;
   text-align: center;
 }
-/*tr linha de células*/
+  /*tr linha de células*/
 tr {
-  background-color: #038c7f;
+  background-color: #CB7666;
 }
 
 /*Título, texto e parágrafos*/
@@ -72,17 +74,17 @@ h3 {
 /*LINK*/
 a:link {
   /*Cor padrão*/
-  color: #f2e7dc;
+  color: #F1ECE4;
 }
 a:visited {
   /*cor após visitar*/
-  color: #95bfb8;
+  color: #EAB996;
 }
-a:hover {
+a:hover{
   /*passa mouse por cima*/
-  color: #025454;
+  color: #FBAA60;
 }
-a:active {
+a:active{
   /*quando selecionamos/pressionamos link*/
   color: #0d0d0d;
 }
@@ -98,8 +100,8 @@ img {
 
 /*CLASSES E IDS*/
 .bookTitle {
-  background-color: #a9d9d0;
-  color: #027373;
+  background-color: #EAB996;
+  color: #A93D49;
   text-align: center;
 }
 /* <!--fazer seção sim e seção nao--> */
@@ -108,22 +110,22 @@ img {
 #sectionCont,
 #sectionNao,
 #sectionApr {
-  background-color: #a9d9d0;
+  background-color: #EAB996;
 }
-#header {
-  background-color: #038c7f;
-  color: #f2e7dc;
+#header{
+  background-color: #A93D49;
+  color: #F1ECE4;
   padding: 20px; /*só 1 elemento define os 4 lados*/
   margin-bottom: 0px;
 }
-#yourLibrary {
+#yourLibrary{
   text-indent: 0px;
   text-align: center;
   /* Dá pra usar um !important após uma definição caso continue herdando outros recursos -- mas não é recomendado*/
 }
-#summary {
-  background-color: #038c7f;
-  color: #f2e7dc;
+#summary{
+  background-color: #A93D49;
+  color: #F1ECE4;
   padding: 20px;
   margin-bottom: 50px;
   border-radius: 0 0 50px 50px;
@@ -134,8 +136,8 @@ img {
 }
 
 /*RODAPÉ*/
-footer {
-  background-color: #038c7f;
+footer{
+  background-color: #CB7666;
   width: 100%;
   text-align: center;
   padding: 30px 0;
