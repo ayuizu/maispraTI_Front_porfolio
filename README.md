@@ -33,7 +33,8 @@ Como não possuo experiência na área, acredito que seja melhor evidenciar o qu
 ## Portfolio Section (Porftólio)
 
 Última seção do projeto, que lista alguns dos projetos desenvolvidos durante o curso:
--Estante Virtual
--Locadora 2000
--Mario Web
--Cartão Virtual
+
+- Estante Virtual;
+- Locadora 2000;
+- Mario Web;
+- Cartão Virtual.
