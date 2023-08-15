@@ -1,6 +1,6 @@
 # portfolioMaisPraTi
 
-Este é o Projeto Final do curso Do Zero Ao Primeiro Site, oferecido pela +praTI e CodificaEdu. Consiste em um portfólio para nos apresentarmos para os mantenedores do curso e para possíveis contratantes.
+Este é o projeto final do curso Do Zero Ao Primeiro Site, oferecido pela +praTI e CodificaEdu. Consiste em um portfólio para nos apresentarmos para os mantenedores do curso e para possíveis contratantes.
 
 A paleta do cores utilizada é a Mountains at Dusk do Canva.
 Os ícones foram obtidos através do Font Awesome.
