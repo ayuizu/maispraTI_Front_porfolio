@@ -5,8 +5,8 @@
 #contato {
   padding: 8rem 0;
 }
-/* Estilização Cabeçalho */
 
+/* Estilização Cabeçalho */
 .navbar {
   background-color: #e35a01;
   padding: 0.5rem;
@@ -17,7 +17,7 @@
 }
 .navbar a:hover {
   background-color: #ddd;
-  color: #E35A01;
+  color: #e35a01;
   border-radius: 1px;
 }
 
@@ -77,15 +77,16 @@
 
 .contactIconS {
   font-size: 1rem;
-  color: #0048a4;
+  color: #689ab8;
   padding: 0 0.5rem;
 }
 .contactIconL {
   font-size: 1.5rem;
-  color: #0048a4;
+  color: #689ab8;
   padding: 1rem 0.5rem;
 }
-.contactIcon:hover {
+.contactIconL:hover,
+.contactIconS:hover {
   color: #e35a01;
 }
 .contactTitle {
@@ -113,13 +114,24 @@
 .servicesText:hover {
   border: #e35a01 1px solid;
 }
+
 /* Portfolio */
+.card-img-top {
+  height: 300px;
+}
+.portfText.card {
+  border-radius: 4px;
+}
 .cardBody {
   height: 200px;
   margin-bottom: 1rem;
 }
-
-
+.portLink {
+  color: #0048a4;
+}
+.portLink:hover {
+  color: #e35a01;
+}
 /* Footer */
 footer {
   background-color: #e35a01;
